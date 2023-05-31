@@ -1,0 +1,126 @@
+*{
+padding: 0;
+margin: 0;
+border: 0;
+box-sizing: border-box;
+
+}
+
+:root{
+    --azulescuro: #405189;
+    --branco: #fff;
+    --azulbotao: #0073ea;
+    --azul_cinza: #2c2e3e;
+
+
+}
+
+.geral{
+    display: flex;
+    height: 100vh;
+
+}
+
+.esquerda {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 1000px;
+    
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--azulescuro);
+    width: 40%;
+    margin-bottom: -31px;
+
+}
+
+.logo {
+    margin: 60px;
+    width: 250px;
+
+
+}
+
+.titulo {
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.info {
+    font-size: 22px;
+    color: #fff;
+    font-family: sans-serif;
+    width: 400px;
+}
+
+.perfil {
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.lembrete {
+    color: #fff;
+    padding-left: 240px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    text-decoration: none;
+    
+}
+
+.button {
+    color: #fff;
+    background-color: var(--azulbotao);
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 60px; 
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+
+.cadastro p {
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 30px;
+    font-weight: 600;
+
+
+}
+
+.esquerda img {
+    height: 500px;
+
+
+}
+
+.esquerda p {
+    color: var(--azulescuro);
+    font-size: 80px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+
