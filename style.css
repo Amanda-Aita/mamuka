@@ -42,7 +42,7 @@ box-sizing: border-box;
 
 .logo {
     margin: 60px;
-    width: 250px;
+    /* width: 250px; */
 
 
 }
@@ -124,3 +124,82 @@ box-sizing: border-box;
 }
 
 
+@media screen and (max-width: 900px) {
+.esquerda {
+    display: none;   
+
+}
+
+.lembrete {
+    display: flex;
+    /* flex-direction: row; */
+    padding: 15px 0px;
+    align-self: center;
+    /* align-items: center; */
+    margin: 0 -30px;
+
+}
+
+
+
+.cadastro {
+    width: 80%;
+
+}
+
+.geral {
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azulescuro);
+    height: 800px;
+
+}
+
+}
+
+@media screen and (min-width: 900px) {
+.info, .perfil {
+    width: 100% ;
+
+}
+.lembrete {
+    padding-left: 150px;
+
+}
+
+}
+@media screen and (max-width: 450px) {
+
+
+
+    .info, .perfil {
+        width: 100% ;
+
+    }
+
+.cadastro {
+    width: 60vw;
+
+
+}
+
+.lembrete {
+    padding-left: 80px;
+    margin: 0;
+
+}
+
+.logo {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.logo img {
+    width: 100%;
+
+
+}
+}
